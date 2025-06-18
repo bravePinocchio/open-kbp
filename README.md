@@ -40,14 +40,14 @@ open-kbp
 ```
 ## Creating the virtual environment
 
-    conda create -n my_env python=3.10.9
+    conda create -n open-kbp python=3.10.9
+    conda activate open-kbp
 
-## Getting started
+## Getting the code
 
     git clone https://github.com/bravePinocchio/open-kbp
     cd open-kbp
     pip install -r requirements.txt
-
 
 ## Running the code
 
