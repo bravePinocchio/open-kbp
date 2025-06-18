@@ -6,7 +6,7 @@ The details of the provided data are available in the paper [OpenKBP: The open-a
 
 ## For running on a local machine
 - Linux
-- Python 3.10.9
+- Python 3.10.9, Torch 2.7.1
 - Nvidia GeForce RTX 3090 GPU
 
 ## Created folder structure
