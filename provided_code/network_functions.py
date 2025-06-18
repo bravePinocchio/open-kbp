@@ -34,7 +34,7 @@ class TorchBatch:
         
         self.ct = torch.from_numpy(keras_batch.ct).float()
         self.structure_masks = torch.from_numpy(keras_batch.structure_masks).float()
-        self.dose = torch.from_numpy(keras_batch.dose).float() if hasattr(keras_batch, 'dose') and keras_batch.dose !=None  else None
+        self.dose = torch.from_numpy(keras_batch.dose).float() if keras_batch.dose is not None else None
         self.possible_dose_mask = torch.from_numpy(keras_batch.possible_dose_mask).float()
         self.patient_list = keras_batch.patient_list
 
